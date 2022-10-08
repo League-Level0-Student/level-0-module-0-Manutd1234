@@ -20,24 +20,42 @@ public class AwesomeOrNot {
 		// 3. Print your variable to the console
 	System.out.println(dog);
 		// 4. Get the user to enter something that they think is awesome
-	String input = JOptionPane.showInputDialog(ran);
+	String input = JOptionPane.showInputDialog(10,000);
 		// 5. If your variable is  0
 		if(dog == 0) {
 			
 		}
 			// -- tell the user whatever they entered is awesome!
-	
+		else {
+		 JOptionPane.showMessageDialog( null, "whatever you entered is awseome");
+		}
 		// 6. If your variable is  1
-	
+		 if(dog == 1) {
+			 
+		 }
 			// -- tell the user whatever they entered is ok.
-	
+		 JOptionPane.showMessageDialog( null, " whatever you entered is ok");
+
+			 
+		 
 		// 7. If your variable is  2
-	
+		 if( dog == 2) {
+			 
+		 }
 			// -- tell the user whatever they entered is boring.
-	
+		 else {
+		 JOptionPane.showMessageDialog( null, "you entered something boring");
+		 }
+
 		// 8. If your variable is  3
-	
+		 if(dog == 3) {
+			 
+		 }
 			// -- invent your own message to give to the user (be nice).
+		 else {
+			 JOptionPane.showMessageDialog( null, "you entered something that is ok but try better"); 
+		 }
+		 
 
 			}
 }
