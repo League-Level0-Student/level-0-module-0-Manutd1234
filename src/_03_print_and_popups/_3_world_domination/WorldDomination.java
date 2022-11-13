@@ -11,11 +11,11 @@ public class WorldDomination {
 		String input = JOptionPane.showInputDialog("Do you know how to write code?");
 		// 2. If they say "yes", tell them they will rule the world.
 		if(input.equals("yes")){
-			JOptionPane.showMessageDialog(null,"They will the rule the world ");
+			JOptionPane.showMessageDialog(null,"You will the rule the world ");
 		}
 		// 3. Otherwise, tell them to sign up for classes at The League.
 		else {
-			JOptionPane.showMessageDialog(null,"Tell them they will rule the world ");
+			JOptionPane.showMessageDialog(null,"Sign up for classes at The League ");
 		}
 	}
 }
